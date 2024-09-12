@@ -1,4 +1,5 @@
 # Configuracion inicial
+<<<<<<< HEAD
 def do_connect ():
     import network
     from time import sleep
@@ -13,3 +14,5 @@ def do_connect ():
     print("Network config:", sta_if.ifconfig())
     
 do_connect()
+=======
+>>>>>>> upstream/main

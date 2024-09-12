@@ -1,4 +1,5 @@
 # Aplicacion del servidor
+<<<<<<< HEAD
 from microdot import Microdot
 from microdot import send_file
 
@@ -13,3 +14,5 @@ async def static (request,dir,file):
     return send_file('/' + dir + '/' + file)
 
 app.run(port = 80)
+=======
+>>>>>>> upstream/main
