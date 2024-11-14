@@ -1,0 +1,36 @@
+main {
+    flex-direction: column;
+    display:flex;
+    align-items: center
+}
+
+div {
+    align-content: center;
+    justify-content: center;
+    align-items: space-between;
+    display: flex
+}
+
+.green {
+    background-color: #90EE90;
+}
+
+.green:hover {
+    background-color: yellowgreen;
+}
+
+.yellow:hover{
+    background-color: yellow;
+}
+
+.yellow{
+    background-color: #FFFF99;
+}
+
+.red{
+    background-color: #FF6666
+}
+
+.red:hover{
+    background-color: red;
+ }
