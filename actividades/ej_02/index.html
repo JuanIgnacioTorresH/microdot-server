@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad 2</title>
+    <title>Actividad #</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <h1>Actividad 2</h1>
+        <h1>Actividad #3</h1>
     </header>
     <main>
-        <h3>Activa el led correspondiente</h3>
-        <div>
-            <button class="red" onclick="toggleLed(1)">LED 1</button>
-            <button class="yellow" onclick="toggleLed(2)">LED 2</button>
-            <button class="green "onclick="toggleLed(3)">LED 3</button>
+        <h1>Temperatura</h1>
+        <h5>Temperatura indicada:<p id="indicated"></p></h5>
+        <h5>Elegir referencia</h5>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          <p>Value: <span id="ref"></span></p>
         </div>
     </main>
     <footer>
@@ -30,4 +31,3 @@
     <script src="scripts/index.js"></script>
 </body>
 </html>
-
