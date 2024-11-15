@@ -1,0 +1,46 @@
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+}
+
+.alert{
+    color: red;
+    display: none
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1,h5,h6 {
+    display: flex;
+    text-align: center
+}

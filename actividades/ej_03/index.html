@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad #</title>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <h1>Actividad #</h1>
+        <h1>Actividad #3</h1>
     </header>
     <main>
+        <div class="card">
+            <h1>Temperatura</h1>
+            <h3><span id="temp"></span>°C</h3>
+            <h6 class="alert" id="alert">BUZZER ACTIVADO</h6>
+        </div>
+        <div class="card">
+            <h5>Elegir referencia</h5>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p>Value: <span id="ref"></span> °C</p>
+        </div>
     </main>
     <footer>
         <p>Representación Frontal y Visual de Datos</p>
         <p>Computadoras de Aeronaves</p>
-        <p>Alumno XX</p>
+        <p>Alumno Juan Ignacio Torres</p>
         <p>Prof. Carlassara Fabrizio</p>
         <p id="fecha"></p>
     </footer>
-    <script src="scripts/base.js"></script>
+    <script src="script/base.js"></script>
+    <script src="script/scripts.js"></script>
 </body>
 </html>
